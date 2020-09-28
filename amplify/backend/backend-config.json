@@ -1,0 +1,16 @@
+{
+  "auth": {
+    "chatdempo6cbbf047": {
+      "service": "Cognito",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "customAuth": false
+    }
+  },
+  "analytics": {
+    "chatdempo": {
+      "service": "Pinpoint",
+      "providerPlugin": "awscloudformation"
+    }
+  }
+}
